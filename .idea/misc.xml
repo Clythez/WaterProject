@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3675" />
+        <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/drawable/ic_calendar.xml" value="0.3675" />
+        <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/drawable/ic_contact.xml" value="0.3675" />
+        <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
         <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/layout/activity_landing_page.xml" value="0.33" />
         <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/layout/activity_main.xml" value="0.2303370786516854" />
+        <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/layout/activity_report_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/layout/nav_header.xml" value="0.3596014492753623" />
         <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/menu/drawer_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Thomas/AndroidStudioProjects/WaterProject/app/src/main/res/mipmap-anydpi-v26/Hamburger_Menu.xml" value="0.2055" />
