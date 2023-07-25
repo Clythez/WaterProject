@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WaterProject">
         <activity
+            android:name=".SummaryPage"
+            android:exported="false"
+            android:theme="@style/Theme.WaterProject.NoActionBar" />
+        <activity
             android:name=".ReportPage"
             android:exported="false"
-            android:theme="@style/Theme.WaterProject.NoActionBar"
-        />
+            android:theme="@style/Theme.WaterProject.NoActionBar" />
         <activity
             android:name=".LoginScreen"
             android:exported="true"

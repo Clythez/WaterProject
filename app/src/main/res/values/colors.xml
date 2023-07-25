@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="confirmation_green">#009e0f</color>
     <color name="menu_background">#6fa8dc</color>
+    <color name="default_background_color">#9FC5F8</color>
 </resources>

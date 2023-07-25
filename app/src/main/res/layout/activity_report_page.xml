@@ -5,7 +5,7 @@
     android:id="@+id/reportPage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_bright"
+    android:background="@color/default_background_color"
     android:fitsSystemWindows="true"
     tools:context=".ReportPage">
 
@@ -33,7 +33,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            tools:srcCompat="@tools:sample/avatars" />
+            tools:srcCompat="@drawable/jgvk_logo_background" />
 
         <Spinner
             android:id="@+id/spinnerGpDropdown"

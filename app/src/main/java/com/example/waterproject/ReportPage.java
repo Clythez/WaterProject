@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class ReportPage extends AppCompatActivity {
@@ -29,5 +31,21 @@ public class ReportPage extends AppCompatActivity {
 
         Spinner mouzaDropdown = findViewById(R.id.spinnerMouzaDropdown);
         mouzaDropdown.setEnabled(false);
+
+        Button nextButton = findViewById(R.id.buttonNext);
+        nextButton.setOnClickListener(
+                view -> {
+                    Intent j = new Intent(ReportPage.this, SummaryPage.class);
+                    startActivity(j);
+                }
+        );
+
+        Button backButton = findViewById(R.id.buttonBack);
+        backButton.setOnClickListener(
+                view -> {
+                    Intent i = new Intent(ReportPage.this, LandingPage.class);
+                    startActivity(i);
+                }
+        );
     }
 }
