@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class LoginScreen extends AppCompatActivity {
+public class LoginPage extends AppCompatActivity {
     private DrawerLayout drawer;
 
     @Override
@@ -32,7 +32,7 @@ public class LoginScreen extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent i = new Intent(LoginScreen.this, LandingPage.class);
+                        Intent i = new Intent(LoginPage.this, LandingPage.class);
                         startActivity(i);
                     }
                 }

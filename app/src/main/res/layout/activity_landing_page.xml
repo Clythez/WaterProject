@@ -18,17 +18,17 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/design_default_color_primary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             android:elevation="4dp"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
         <TextView
             android:id="@+id/labelWaterPointType"
-            android:layout_width="250dp"
+            android:layout_width="wrap_content"
             android:layout_height="45dp"
             android:gravity="center"
-            android:outlineProvider="none"
+            android:fontFamily="@font/comic_helvetic"
             android:text="Select the type of water point:"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -229,21 +229,24 @@
 
         </LinearLayout>
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
         <LinearLayout
             android:id="@+id/progressButtonLayout"
-            android:layout_width="410dp"
+            android:layout_width="match_parent"
             android:layout_height="48dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0">
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp">
 
             <Button
                 android:id="@+id/buttonBack"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="48dp"
                 android:layout_marginStart="25dp"
                 android:backgroundTint="@color/design_default_color_error"
                 android:text="Back" />
@@ -251,12 +254,12 @@
             <Button
                 android:id="@+id/buttonNext"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="48dp"
                 android:layout_marginLeft="170dp"
                 android:backgroundTint="@color/confirmation_green"
                 android:text="Next" />
         </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"

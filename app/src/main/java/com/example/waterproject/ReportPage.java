@@ -35,8 +35,8 @@ public class ReportPage extends AppCompatActivity {
         Button nextButton = findViewById(R.id.buttonNext);
         nextButton.setOnClickListener(
                 view -> {
-                    Intent j = new Intent(ReportPage.this, SummaryPage.class);
-                    startActivity(j);
+                    Intent i = new Intent(ReportPage.this, SummaryPage.class);
+                    startActivity(i);
                 }
         );
 

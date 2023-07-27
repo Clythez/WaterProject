@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/default_background_color"
     android:fitsSystemWindows="true"
-    tools:context=".LoginScreen">
+    tools:context=".LoginPage">
     <!---tools:openDrawer="start" -->
 
     <androidx.constraintlayout.widget.ConstraintLayout

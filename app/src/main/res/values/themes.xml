@@ -17,6 +17,7 @@
     <style name="Theme.WaterProject.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/comic_helvetic</item>
     </style>
 
 </resources>

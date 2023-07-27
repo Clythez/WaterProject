@@ -215,23 +215,32 @@
 
             <CheckBox
                 android:id="@+id/checkBox2"
-                android:gravity="center_vertical"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
                 android:layout_weight="1"
-                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
                 android:text="I, $name, confirm that this data is correct " />
         </LinearLayout>
 
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
         <LinearLayout
             android:id="@+id/progressButtonLayout"
-            android:layout_width="410dp"
-            android:layout_height="48dp">
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp">
 
             <Button
                 android:id="@+id/buttonBack"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="48dp"
                 android:layout_marginStart="25dp"
                 android:backgroundTint="@color/design_default_color_error"
                 android:text="Back" />
@@ -239,12 +248,13 @@
             <Button
                 android:id="@+id/buttonNext"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="48dp"
                 android:layout_marginLeft="170dp"
                 android:backgroundTint="@color/confirmation_green"
                 android:text="Next" />
         </LinearLayout>
-    </LinearLayout>
+    </RelativeLayout>
+
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
