@@ -23,6 +23,56 @@
             app:layout_constraintTop_toTopOf="parent"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
+        <ImageView
+            android:id="@+id/imageViewProfileSettings"
+            android:layout_width="83dp"
+            android:layout_height="77dp"
+            android:contentDescription="JGVK Logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:src="@drawable/jgvk_logo_background" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.151">
+
+            <TextView
+                android:id="@+id/labelSendData"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".85"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:text="Send data only when connected to Wi-Fi:"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSendData"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:gravity="center"
+                android:checked="true"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:buttonTint="#000000"
+                android:minWidth="48dp"
+                android:minHeight="0dp" />
+        </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <RelativeLayout
@@ -33,25 +83,18 @@
         <LinearLayout
             android:id="@+id/progressButtonLayout"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:layout_marginBottom="5dp">
 
             <Button
                 android:id="@+id/buttonBack"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:layout_marginStart="25dp"
-                android:backgroundTint="@color/design_default_color_error"
-                android:text="Back" />
-
-            <Button
-                android:id="@+id/buttonNext"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:layout_marginLeft="170dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:backgroundTint="@color/confirmation_green"
-                android:text="Next" />
+                android:text="Back" />
         </LinearLayout>
     </RelativeLayout>
 

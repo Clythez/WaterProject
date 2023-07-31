@@ -43,7 +43,7 @@
                 android:layout_width="83dp"
                 android:layout_height="77dp"
                 android:contentDescription="JGVK Logo"
-                tools:srcCompat="@drawable/jgvk_logo_background" />
+                android:src="@drawable/jgvk_logo_background" />
         </LinearLayout>
 
         <LinearLayout

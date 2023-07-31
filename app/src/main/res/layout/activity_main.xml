@@ -124,7 +124,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.776"
-            tools:srcCompat="@drawable/jgvk_logo_background" />
+            android:src="@drawable/jgvk_logo_background" />
 
         <ImageView
             android:id="@+id/imageViewJgvk"
@@ -136,7 +136,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.773"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:src="@drawable/jgvk_logo_background" />
 
         <Button
             android:id="@+id/buttonLogIn"
