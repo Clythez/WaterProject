@@ -93,7 +93,7 @@
                 android:id="@+id/buttonBack"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/confirmation_green"
+                android:backgroundTint="@color/design_default_color_error"
                 android:text="Back" />
         </LinearLayout>
     </RelativeLayout>
