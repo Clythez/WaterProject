@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WaterProject">
         <activity
+            android:name=".HistoryPage"
+            android:exported="false"
+            android:theme="@style/Theme.WaterProject.NoActionBar" />
+        <activity
             android:name=".IndividualSummaryPage"
             android:exported="false"
             android:theme="@style/Theme.WaterProject.NoActionBar" />
